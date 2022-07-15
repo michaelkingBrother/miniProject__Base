@@ -1,6 +1,6 @@
 :root{
     --textColor: black;
-
+    --primaryColor: ;
 }
 *{
     margin: 0;
@@ -15,6 +15,7 @@ a{
     cursor: pointer;
 }
 body{
+    color: #D5E0EB;
     background-color: #D5E0EB;
 }
 /* end resset css */
