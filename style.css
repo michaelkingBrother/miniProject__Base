@@ -1,4 +1,5 @@
 :root{
+    color-scheme: dark light;
     --textColor: black;
     --primaryColor: ;
 }
@@ -15,7 +16,6 @@ a{
     cursor: pointer;
 }
 body{
-    color: #D5E0EB;
     background-color: #D5E0EB;
 }
 /* end resset css */
