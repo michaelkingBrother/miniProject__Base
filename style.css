@@ -1,0 +1,108 @@
+:root{
+    --textColor: black;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fa {
+    font-family: 'FontAwesome'! Important; 
+}
+a{
+    all: unset;
+    cursor: pointer;
+}
+body{
+    background-color: aqua;
+}
+/* end resset css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer css */
+@media only screen and (max-width: 768px){
+    .footer>*:not(.copy) {
+        display: none;
+    }
+    .copy{
+        text-align: center;
+    }
+}
+
+.footer {
+    padding: 0;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    width: auto;
+    height: 1px;
+    z-index: 99;
+    display: block;
+}
+.footer .soc-box {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    float: right;
+    width: 24px;
+}
+.follow-label {
+    padding-right: 75px;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    color: var(--textColor);
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    white-space: nowrap;
+    transform-origin: 100% 0;
+    text-align: right;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+.copy a{
+    all: unset;
+    cursor: pointer;
+    color: var(--textColor);
+}
+.follow-label:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 1px;
+    background: rgba(0,0,0,.1);
+}
+.clear {
+    clear: both;
+}
+.footer .soc a {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--textColor);
+}
+
+/*end footer css*/
+
+
+
